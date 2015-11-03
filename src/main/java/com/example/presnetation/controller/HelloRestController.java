@@ -1,4 +1,4 @@
-package com.example;
+package com.example.presnetation.controller;
 
 import java.util.List;
 
@@ -6,6 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.example.domain.model.entity.Hello;
+import com.example.infrastructure.dao.HelloDao;
 
 @RestController
 public class HelloRestController {
